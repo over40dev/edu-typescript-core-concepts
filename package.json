@@ -1,0 +1,17 @@
+{
+  "name": "ms365dev",
+  "version": "1.0.0",
+  "description": "TypeScript Core Concepts",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc"
+  },
+  "keywords": [
+    "TypeScript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  }
+}
