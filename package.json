@@ -4,7 +4,9 @@
   "description": "TypeScript Core Concepts",
   "main": "index.js",
   "scripts": {
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "tsc:w": "tsc --watch",
+    "serve": "npx http-server ./ -o"
   },
   "keywords": [
     "TypeScript"
