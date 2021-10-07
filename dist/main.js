@@ -2,5 +2,7 @@
 function add(x, y) {
     return x + y;
 }
-add(1, 2);
+function multiply(x, y) {
+    return x * y;
+}
 //# sourceMappingURL=main.js.map
