@@ -42,6 +42,15 @@ class EmployeeSettings {
 
 let empSettings = new EmployeeSettings(settings);
 
+// use Interface as Return Type from function
+function getSettings() {
+  return {
+      title: 'Red',
+      color: 'red'
+  };
+}
+console.log(getSettings());
+
 /*
 [JS Code]
 "use strict";
@@ -68,6 +77,17 @@ class EmployeeSettings {
     }
 }
 let empSettings = new EmployeeSettings(settings);
+function getSettings() {
+    return {
+        title: 'Red',
+        color: 'red'
+    };
+}
+console.log(getSettings());
 [LOG]
 "Blue",  "blue",  "first"
+{
+  "title": "Red",
+  "color": "red"
+} 
 */
