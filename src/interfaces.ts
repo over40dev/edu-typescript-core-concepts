@@ -11,8 +11,32 @@ function initialize(settings: Settings) {
 console.log(settings);
 }
 
+
 initialize({
   title: 'Blue',
   color: 'blue',
 });
+
+/*
+[JS Code]
+"use strict";
+class Settings {
+    constructor() {
+        this.title = '';
+        this.color = '';
+    }
+}
+function initialize(settings) {
+    console.log(settings);
+}
+initialize({
+    title: 'Blue',
+    color: 'blue',
+});
+[Log]
+{
+  "title": "Blue",
+  "color": "blue"
+}
+*/
 
